@@ -28,8 +28,8 @@ describe Code do
     end
 
     context "when given a string containing invalid colors" do
-      it "raises an error" do
-        expect { Code.parse("abcd") }.to raise_error
+      it "raises an ArgumentError" do
+        expect { Code.parse("abcd") }.to raise_error(ArgumentError)
       end
     end
   end
