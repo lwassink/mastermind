@@ -4,12 +4,12 @@ In this project, you'll implement the game
 [Mastermind][wiki-mastermind].
 
 * There are six different peg colors:
-* Red
-* Green
-* Blue
-* Yellow
-* Orange
-* Purple
+  * Red
+  * Green
+  * Blue
+  * Yellow
+  * Orange
+  * Purple
 * The computer will select a random code of four pegs. (Duplicate colors
     are allowed.)
 * The user gets ten turns to guess the code.
